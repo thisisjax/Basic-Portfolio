@@ -1,9 +1,32 @@
 body {
-    
+    background-image: url ("wavesbackground.jpg");
 }
 h1 {
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 300px;
+    height: 40px;
+    color: white;
+    padding: 25px;
+    margin: 44px 0px 0px 0px;
+}
+.header {
+    position: fixed;
+    top:0%;
+    left:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    width: 300px;
+    height: 40px;
+    padding: 25px;
 }
 .container {
+    padding: 50px;
+    margin-top: 125px;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
 }
