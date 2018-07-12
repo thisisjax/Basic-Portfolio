@@ -1,39 +1,78 @@
 body {
-    background-image: url ("wavesbackground.jpg");
+    background: url(../images/waves.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
 }
-/*Header*/
+body::after {
+    background: url(../images/waves.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+/*my Name*/
 h1 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    width: 300px;
-    height: 40px;
+    width: 230px;
+    height: 20px;
     color: white;
+    font-size: 25px;
     padding: 25px;
-    margin: -25px 0px 0px 0px;
+    margin:   -25px 0px 0px 0px;
+    text-align: center;
 }
+/*navbar*/
+.navbar {
+    height: 20px;
+    
+}
+/*buttons: about, portfolio, contact*/
 .buttons {
-    position: fixed;
-    color: whitesmoke;
-    margin: -45px 0px 0px 950px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    margin: 50px 10px 0px 0px;
 }
+/*style for the buttons*/
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header*/
 .header {
     position: fixed;
-    top:0%;
-    left:0%;
+    top:0;
+    left:0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: grey;
+    background-color: white;
     width: 100%;
-    height: 40px;
+    height: 20px;
     padding: 25px;
-    margin: 44px 0px 0px 0px;
+    margin: 22px 0px 0px 0px;
 }
-/*index: about me*/
+/*pic of me*/
 #bio-image {
     float: left;
     padding: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
+/*index: about me*/
 .AboutMe {
+    position: fixed;
     clear: both;
     padding: 130px;
     margin-top: 125px;
@@ -41,13 +80,18 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
     text-align: justify;
-
+    background-color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
 }
 /*portfolio: titles*/
 .titles {
     padding: 120px;
-    margin: 35px 0px 0px 20px;
+    margin: 100px 50px 70px 50px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white; 
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
 }
 .hangman {
     background-color: black;
@@ -84,11 +128,15 @@ h1 {
     text-align: center;
     padding: 0.5px;
 }
-/*box1*/
+
+/* contact page forms: box1*/
 .box1 {
-    position: static;
     margin: 200px 0px 0px 25px; 
-    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: white; 
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
 }
 
 /*footer*/
@@ -99,9 +147,9 @@ h1 {
     background-color: gray;
     width: 100%;
     height: 2px;
-    margin: 0px 0px 10px -8px;
+    margin: 15px 0px 10px -8px;
     text-align: center;
     padding: 15px;
-    color: whitesmoke;
+    color: whitesmoke
     
 }
