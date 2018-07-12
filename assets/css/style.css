@@ -77,7 +77,8 @@ a {
     padding: 130px;
     margin: 125px 0px 20px 175px;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 2px gray;
+    text-shadow: 1px 1px 8px black;
+    line-height: 17px;
     width: 50%;
     text-align: justify;
     background-color: white;
@@ -85,11 +86,17 @@ a {
     filter: alpha(opacity=70); 
 }
 /*portfolio header*/
-
+h2 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
 /*portfolio: titles*/
 .titles {
-    padding: 120px;
-    margin: 100px 50px 70px 50px;
+    width: 60%;
+    height: 500px;
+    padding: 30px;
+    margin: 130px 0px 70px 200px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white; 
     opacity: 0.7;
@@ -99,35 +106,35 @@ a {
 .hangman {
     background-color: black;
     color: whitesmoke;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding: 0.5px;
 }
 .game {
     background-color: black;
     color: whitesmoke;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding: 0.5px;
 }
 .trivia {
     background-color: black;
     color: whitesmoke;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding: 0.5px;
 }
 .rutgers {
     background-color: black;
     color: whitesmoke;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding: 0.5px;
 }
 .rock {
     background-color: black;
     color: whitesmoke;
-    width: 20%;
+    width: 30%;
     text-align: center;
     padding: 0.5px;
 }
