@@ -77,6 +77,7 @@ a {
     padding: 130px;
     margin: 125px 0px 20px 175px;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px gray;
     width: 50%;
     text-align: justify;
     background-color: white;
