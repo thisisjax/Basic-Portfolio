@@ -28,11 +28,30 @@ h1 {
     padding: 25px;
     margin: 44px 0px 0px 0px;
 }
-/*paragraph*/
-.container {
-    padding: 50px;
+/*index: about me*/
+#bio-image {
+    float: left;
+    padding: 15px;
+}
+.AboutMe {
+    clear: both;
+    padding: 140px;
     margin-top: 125px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    text-align: justify;
+
+}
+/*portfolio: titles*/
+.PortfolioTitles {
+    position: relative;
+    padding: 50px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 20%;
 
 }
 /*footer*/
