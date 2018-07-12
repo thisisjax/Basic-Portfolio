@@ -84,6 +84,7 @@ a {
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
+
 /*portfolio: titles*/
 .titles {
     padding: 120px;
@@ -93,6 +94,7 @@ a {
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
+/*porfolio text*/
 .hangman {
     background-color: black;
     color: whitesmoke;
@@ -131,12 +133,32 @@ a {
 
 /* contact page forms: box1*/
 .box1 {
-    margin: 200px 0px 0px 25px; 
+    margin: 200px 35px 0px 35px; 
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     background-color: white; 
-    opacity: 0.7;
-    filter: alpha(opacity=70); 
+    opacity: 0.9;
+}
+/*contact page header*/
+h2 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+/*First & Last name box*/
+input[type=text] {
+    width: 50%;
+    padding: 2px 3px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/*Message Form Box*/
+input[type=t] {
+    width: 90%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 0px;
+    box-sizing: border-box;
 }
 
 /*footer*/
@@ -151,5 +173,4 @@ a {
     text-align: center;
     padding: 15px;
     color: whitesmoke
-    
 }
