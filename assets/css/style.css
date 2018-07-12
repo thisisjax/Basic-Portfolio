@@ -133,7 +133,8 @@ a {
 
 /* contact page forms: box1*/
 .box1 {
-    margin: 200px 35px 0px 35px; 
+    width: 75%;
+    margin: 200px 0px 0px 140px; 
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     background-color: white; 
