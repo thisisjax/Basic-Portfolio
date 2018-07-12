@@ -75,15 +75,15 @@ a {
     position: fixed;
     clear: both;
     padding: 130px;
-    margin-top: 125px;
-    margin-left: 40px;
+    margin: 125px 0px 20px 175px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 70%;
+    width: 50%;
     text-align: justify;
     background-color: white;
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
+/*portfolio header*/
 
 /*portfolio: titles*/
 .titles {
