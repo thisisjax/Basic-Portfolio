@@ -35,25 +35,62 @@ h1 {
 }
 .AboutMe {
     clear: both;
-    padding: 140px;
+    padding: 130px;
     margin-top: 125px;
+    margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
     text-align: justify;
 
 }
 /*portfolio: titles*/
-.PortfolioTitles {
-    position: relative;
-    padding: 50px;
-    margin-top: 150px;
+.titles {
+    padding: 120px;
+    margin: 35px 0px 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
-    width: 25%;
-    height: 20%;
-
 }
+.hangman {
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    text-align: center;
+    padding: 0.5px;
+}
+.game {
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    text-align: center;
+    padding: 0.5px;
+}
+.trivia {
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    text-align: center;
+    padding: 0.5px;
+}
+.rutgers {
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    text-align: center;
+    padding: 0.5px;
+}
+.rock {
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    text-align: center;
+    padding: 0.5px;
+}
+/*box1*/
+.box1 {
+    position: static;
+    margin: 200px 0px 0px 25px; 
+    
+}
+
 /*footer*/
 .footer {
     position: fixed;
