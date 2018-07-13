@@ -18,15 +18,15 @@ body::after {
   
 /*my Name*/
 h1 {
-    position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
     background-color: black;
     width: 230px;
     height: 20px;
     color: white;
     font-size: 25px;
     padding: 25px;
-    margin:   -25px 0px 0px 0px;
+    margin: -25px 0px 0px 0px;
     text-align: center;
 }
 /*navbar*/
@@ -34,7 +34,7 @@ h1 {
     height: 20px;
     
 }
-/*buttons: about, portfolio, contact*/
+/*Buttons*/
 .buttons {
     position: absolute;
     top: 0;
@@ -85,65 +85,31 @@ a {
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
-/*portfolio header*/
+/*Portfolio Page*/
+
+/* Header*/
 h2 {
     color: black;
     font-size: 34px;
     font-weight: bold;
 }
-/*portfolio: titles*/
+/*Portfolio: Titles*/
 .titles {
     width: 60%;
     height: 500px;
     padding: 30px;
     margin: 130px 0px 70px 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ;
     background-color: white; 
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
-.images {
-    width: 20%;
-    height: 10%;
-}
-/*porfolio text*/
-.hangman {
-    background-color: black;
-    color: whitesmoke;
-    width: 30%;
-    text-align: center;
-    padding: 0.5px;
-}
-.game {
-    background-color: black;
-    color: whitesmoke;
-    width: 30%;
-    text-align: center;
-    padding: 0.5px;
-}
-.trivia {
-    background-color: black;
-    color: whitesmoke;
-    width: 30%;
-    text-align: center;
-    padding: 0.5px;
-}
-.rutgers {
-    background-color: black;
-    color: whitesmoke;
-    width: 30%;
-    text-align: center;
-    padding: 0.5px;
-}
-.rock {
-    background-color: black;
-    color: whitesmoke;
-    width: 30%;
-    text-align: center;
-    padding: 0.5px;
-}
 
-/* contact page forms: box1*/
+
+
+
+/*Contact Page*/
+/*Forms: Box 1*/
 .box1 {
     width: 75%;
     margin: 200px 0px 0px 140px; 
@@ -152,7 +118,7 @@ h2 {
     background-color: white; 
     opacity: 0.9;
 }
-/*contact page header*/
+/*Header*/
 h2 {
     color: black;
     font-size: 34px;
@@ -174,7 +140,7 @@ input[type=t] {
     box-sizing: border-box;
 }
 
-/*footer*/
+/*Footer*/
 .footer {
     position: fixed;
     bottom: 0%;
