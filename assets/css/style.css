@@ -1,5 +1,5 @@
 body {
-    background: url(../images/waves.jpg) no-repeat center center fixed; 
+    background: url(../images/wave.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +18,7 @@ body::after {
   
 /*my Name*/
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Amatic SC', cursive;
     position: relative;
     background-color: black;
     width: 230px;
@@ -26,7 +26,7 @@ h1 {
     color: white;
     font-size: 25px;
     padding: 25px;
-    margin: -25px 0px 0px 0px;
+    margin:   -25px 0px 0px 0px;
     text-align: center;
 }
 /*navbar*/
@@ -47,20 +47,21 @@ a {
     text-decoration: none;
     color: black;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 /*Header*/
 .header {
     position: fixed;
     top:0;
     left:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Per;
     background-color: white;
     width: 100%;
     height: 20px;
     padding: 25px;
     margin: 22px 0px 0px 0px;
 }
+
 /*pic of me*/
 #bio-image {
     float: left;
@@ -68,7 +69,8 @@ a {
     position: relative;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: 2;
+    opacity: 100;
 }
 /*index: about me*/
 .AboutMe {
@@ -76,14 +78,16 @@ a {
     clear: both;
     padding: 130px;
     margin: 125px 0px 20px 175px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 8px black;
+    font-family: 'Poiret One', cursive;
     line-height: 17px;
     width: 50%;
-    text-align: justify;
+    text-align: justify;  
+}
+.cotainer {
+    position: absolute;
+    z-index: 1;   
     background-color: white;
-    opacity: 0.7;
-    filter: alpha(opacity=70); 
+    opacity: 0.8;
 }
 /*Portfolio Page*/
 
@@ -93,20 +97,45 @@ h2 {
     font-size: 34px;
     font-weight: bold;
 }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
 /*Portfolio: Titles*/
 .titles {
     width: 60%;
     height: 500px;
-    padding: 30px;
+    padding: 40px;
     margin: 130px 0px 70px 200px;
-    font-family: ;
     background-color: white; 
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
 
+/*Hangman*/
 
+/*Image*/
 
+/*Game*/
+
+/*Image*/
+
+/*Trivia*/
+
+/*Image*/
+
+/*Rutgers*/
+
+/*Image*/
+
+/*Rock*/
+
+/*Image*/
 
 /*Contact Page*/
 /*Forms: Box 1*/
@@ -125,7 +154,7 @@ h2 {
     font-weight: bold;
 }
 /*First & Last name box*/
-input[type=text] {
+input {
     width: 50%;
     padding: 2px 3px;
     margin: 8px 0;
